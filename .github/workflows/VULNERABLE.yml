@@ -1,0 +1,12 @@
+name: Submit Dependencies
+on:
+  workflow_dispatch:
+
+jobs:
+  submit-dependencies:
+    if: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for dependency submission
+    steps:
+      - uses: actions/download-artifact@v4.1.7
