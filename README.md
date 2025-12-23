@@ -1,3 +1,3 @@
 # action-dependency-repro
 
-run
+run forsdt
